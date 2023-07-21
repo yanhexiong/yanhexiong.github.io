@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "方正汉文正楷 简";
+    src: url("../fonts/FZHanWZKJW.TTF");
+    unicode-range: U+4E00-9FFF;
+  }
+:root {
+  --md-text-font: "方正汉文正楷 简"; 
+}
+  

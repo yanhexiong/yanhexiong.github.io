@@ -1,0 +1,58 @@
+site_name: YHX 的笔记本
+repo_url: https://github.com/yanhexiong/yanhexiong.github.io
+repo_name : YHX/Notebook
+site_author: YHX
+site_description : YHX的笔记本
+copyright: Copyright &copy; 2023 YHX
+extra_javascript:
+  - javascripts/feedback.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - mdx_math
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+theme:
+  name: 'material'
+  custom_dir: overrides
+  language: 'zh'
+  font:
+    code: Roboto Mono
+  palette:
+    primary: 'deep purple'
+    accent: 'cyan'
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - header.autohide
+    - navigation.footer
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/qq 
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=0oPef1lvW_knPM3zPLyu8iKiu6k8vH7W&noverify=0
+    - icon: fontawesome/brands/weixin 
+      link: https://u.wechat.com/ECfhgHwp3l_a1NWdkKtptnU
+nav:
+  - Home : index.md
+  - Math : testlatex.md
