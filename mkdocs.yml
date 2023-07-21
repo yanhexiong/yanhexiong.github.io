@@ -56,3 +56,5 @@ extra:
 nav:
   - Home : index.md
   - Math : testlatex.md
+  - 'Minecraft' : 
+    - '凯の梦想乡': '凯の梦想乡.md'
