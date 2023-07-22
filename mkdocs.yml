@@ -10,6 +10,8 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
+  - admonition
+  - def_list
   - footnotes
   - attr_list
   - pymdownx.emoji:
@@ -39,6 +41,7 @@ theme:
     primary: 'deep purple'
     accent: 'cyan'
   features:
+    - content.code.copy
     - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
@@ -46,6 +49,8 @@ theme:
     - navigation.top
     - header.autohide
     - navigation.footer
+    - search.highlight
+    - search.suggest
 extra:
   generator: true
   social:
@@ -53,6 +58,9 @@ extra:
       link: https://qm.qq.com/cgi-bin/qm/qr?k=0oPef1lvW_knPM3zPLyu8iKiu6k8vH7W&noverify=0
     - icon: fontawesome/brands/weixin 
       link: https://u.wechat.com/ECfhgHwp3l_a1NWdkKtptnU
+plugins:
+  - glightbox
+
 nav:
   - 'Minecraft' : 
     - '凯の梦想乡': 'mc1.12.1.md'
