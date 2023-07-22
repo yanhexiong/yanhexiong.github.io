@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "方正汉文正楷 简";
-    src: url("../fonts/FZHanWZKJW.TTF");
+    font-family: "方正悠宋 GBK 508R";
+    src: url("../fonts/FZYouSK_508R.TTF");
     unicode-range: U+4E00-9FFF;
   }
 :root {
-  --md-text-font: "方正汉文正楷 简"; 
+  --md-text-font: "方正悠宋 GBK 508R"; 
 }
   
