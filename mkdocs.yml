@@ -54,7 +54,5 @@ extra:
     - icon: fontawesome/brands/weixin 
       link: https://u.wechat.com/ECfhgHwp3l_a1NWdkKtptnU
 nav:
-  - Home : index.md
-  - Math : testlatex.md
   - 'Minecraft' : 
-    - '凯の梦想乡': '凯の梦想乡.md'
+    - '凯の梦想乡': 'mc1.12.1.md'
