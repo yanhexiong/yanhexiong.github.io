@@ -4,6 +4,7 @@ repo_name : YHX/Notebook
 site_author: YHX
 site_description : YHX的笔记本
 copyright: Copyright &copy; 2023 YHX
+
 extra_javascript:
   - javascripts/feedback.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -24,6 +25,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - tables
   - mdx_math
   - pymdownx.superfences:
@@ -32,14 +35,18 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 theme:
+  favicon: images/favicon.jpg
+  icon:
+    logo: material/notebook-multiple
   name: 'material'
   custom_dir: overrides
   language: 'zh'
   font:
-    code: Roboto Mono
+    code: Open Sans
   palette:
     primary: 'deep purple'
     accent: 'cyan'
+    
   features:
     - content.code.copy
     - header.autohide

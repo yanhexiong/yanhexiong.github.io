@@ -3,22 +3,26 @@
 ###简介:
 我的世界1.12.2版本，forge发行版，使用OpenJ9 Java运行环境，整合了大约100个左右的mod，多个光影，材质包，mod中包含诸多优化mod和玩法mod。
 
+
 详细参数介绍：
 
-    Minecraft版本：1.12.2
-    Forge版本：forge-1.12.2-14.23.5.2859
-    启动器：HMCL启动器
-    材质包：
+=== "版本" 
+        Minecraft版本：1.12.2
+=== "Forge版本" 
+        forge-1.12.2-14.23.5.2859
+=== "启动器"    
+        HMCL启动器
+=== "材质包"
             cocricot_for_1.12.2_v0.3.zip
             Glowing+Ores+for+MC+1.11-1.12.2.zip
             Minecraft-Mod-Language-Modpack.zip
             Mizunos 16 Craft with MODs_1.12.2-1.1.zip
-    光影：
+=== "光影"
             ComplementaryShaders_v4.3.3.zip   
             ComplementaryReimagined_r2.2.zip   
             ComplementaryReimagined_r2.2.1.zip
              超低配光影水反.zip
-    Mods：
+=== "Mods"
             !mixinbooter-8.3.jar
             [MOD]cocricotMOD for 1.12.2 v0.3.jar
             [xnet]xnet-1.12-1.8.2.jar
@@ -110,7 +114,7 @@
             WailaHarvestability-mc1.12-1.1.12.jar
             Wawla-1.12.2-2.6.275.jar
             worldedit-forge-mc1.12.2-6.1.10-dist.jar
-
+        ```
 ###下载地址：[[普通版-123网盘]](https://www.123pan.com/s/SLZLVv-cloVv.html)[[OpenJ9版-123网盘]](https://www.123pan.com/s/SLZLVv-ZloVv.html) 
 
 ##服务端：
@@ -119,13 +123,14 @@
 
 详细参数介绍：
 
-    Java运行环境：Alibaba DragonWell-8.15.16
-    Plugins：
+=== "Java运行环境"
+        Alibaba DragonWell-8.15.16
+=== "插件"
             CatClearLag-0.9.5.1.jar
             LaggRemover-2.0.6.jar
             ProtocolLib.jar
             spark-1.8.19-bukkit.jar
-    Mods：
+=== "Mods"
             !mixinbooter-8.3.jar
             [MOD]cocricotMOD for 1.12.2 v0.3.jar
             [xnet]xnet-1.12-1.8.2.jar
