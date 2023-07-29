@@ -31,6 +31,8 @@ markdown_extensions:
       alternate_style: true 
   - tables
   - mdx_math
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -73,3 +75,6 @@ plugins:
 nav:
   - 'Minecraft' : 
     - '凯の梦想乡': 'mc1.12.1.md'
+  - '离散数学' :
+    - '数理逻辑' :
+      - '第1章  命题逻辑的基本概念 ': 'Combinatorial_mathematics\1.1.md'
