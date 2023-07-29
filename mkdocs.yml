@@ -73,6 +73,7 @@ plugins:
   - glightbox
 
 nav:
+  - 'Home' : 'index.md'
   - 'Minecraft' : 
     - '凯の梦想乡': 'mc1.12.1.md'
   - '离散数学' :
